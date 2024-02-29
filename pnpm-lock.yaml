@@ -11,6 +11,9 @@ dependencies:
   '@astrojs/tailwind':
     specifier: ^5.1.0
     version: 5.1.0(astro@4.4.6)(tailwindcss@3.4.1)
+  '@fontsource-variable/roboto-mono':
+    specifier: ^5.0.17
+    version: 5.0.17
   astro:
     specifier: ^4.4.6
     version: 4.4.6(typescript@5.3.3)
@@ -600,6 +603,10 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@fontsource-variable/roboto-mono@5.0.17:
+    resolution: {integrity: sha512-+FyoiEmO2r/kiwPnsPtATK2ROMgNwCnVSvvs+K38GMLIgLSSk4cNqU3GCqJDMSvAPHMYd0gFPGKStFh+yLqd9Q==}
+    dev: false
 
   /@isaacs/cliui@8.0.2:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
