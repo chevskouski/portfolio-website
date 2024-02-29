@@ -24,8 +24,10 @@ import Footer from '@src/components/Footer.astro';
 		<Background />
 		<Header />
 		<br>
+		<div class="mx-auto max-w-6xl" id="main-content">
+			<slot />
+		</div>
 		<br>
-		<slot />
 		<Footer />
 		<script src="../scripts/themeToggle.ts"></script>
 	</body>
